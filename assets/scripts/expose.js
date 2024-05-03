@@ -37,9 +37,9 @@ function updateHorn(){
   // get new horn selection
   currentHorn = hornSelect.value;
   // load correct image
-  image.src = "/assets/images/" + currentHorn + ".svg";
+  image.src = "/sp24-cse110-lab5/assets/images/" + currentHorn + ".svg";
   // load correct audio file
-  audio.src = "/assets/audio/" + currentHorn + ".mp3";
+  audio.src = "/sp24-cse110-lab5/assets/audio/" + currentHorn + ".mp3";
 
 }
 
@@ -57,19 +57,19 @@ function updateVolume(){
   let currentVol = volumeSlider.value;
   audio.volume = currentVol / 100;
   if (currentVol == 0){
-    volumeIcon.src = "/assets/icons/volume-level-0.svg";
+    volumeIcon.src = "/sp24-cse110-lab5/assets/icons/volume-level-0.svg";
     volumeIcont.alt = "Volume level 0";
   }
   else if (currentVol < 33){
-    volumeIcon.src = "/assets/icons/volume-level-1.svg";
+    volumeIcon.src = "/sp24-cse110-lab5/assets/icons/volume-level-1.svg";
     volumeIcont.alt = "Volume level 1";
   }
   else if (currentVol < 67){
-    volumeIcon.src = "/assets/icons/volume-level-2.svg";
+    volumeIcon.src = "/sp24-cse110-lab5/assets/icons/volume-level-2.svg";
     volumeIcont.alt = "Volume level 2";
   }
   else {
-    volumeIcon.src = "/assets/icons/volume-level-3.svg";
+    volumeIcon.src = "/sp24-cse110-lab5/assets/icons/volume-level-3.svg";
     volumeIcont.alt = "Volume level 3";
   }
 
