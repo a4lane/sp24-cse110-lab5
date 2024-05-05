@@ -8,7 +8,7 @@ function init() {
 
   button.addEventListener("click", playSound);
 
-  volumeSlider.addEventListener("change", updateVolume);
+  volumeSlider.addEventListener("input", updateVolume);
 
 }
 
