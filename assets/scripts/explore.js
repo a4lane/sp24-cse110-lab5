@@ -62,11 +62,11 @@ function utter(){
 
   
 
-  //image.src = "./assets/images/smiling-open.png";
   synth.speak(speech);
-  while (synth.speaking){
-    image.src = "./assets/images/smiling-open.png";
+  image.src = "assets/images/smiling-open.png";
+  
+  speech.onend = function() {
+    image.src = "assets/images/smiling.png";
   }
-  image.src = "./assets/images/smiling.png";
 
 }
