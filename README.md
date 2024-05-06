@@ -5,7 +5,7 @@ Allison Lane
 
 EXPOSE: https://a4lane.github.io/sp24-cse110-lab5/expose.html 
 
-EXPLORE:
+EXPLORE: https://a4lane.github.io/sp24-cse110-lab5/explore.html
 
 <br>
 
